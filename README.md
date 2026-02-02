@@ -5,11 +5,11 @@
 
 ## Решение задания 2
 
-Promql-запросы:
+Promql-запросы: 
 ```100 - (rate(node_cpu_seconds_total{mode="idle"}[5m]))*100``` 
-```node_load1```, ```node_load5```, ```node_load15``` 
-```node_memory_MemFree_bytes``` 
-```node_filesystem_free_bytes{fstype="ext4"}```
+```node_load1```, ```node_load5```, ```node_load15```  
+```node_memory_MemFree_bytes```  
+```node_filesystem_free_bytes{fstype="ext4"}``` 
 
 Получившийся Dashboard:
 ![Dashboard](img/my_dashboard.jpg)
